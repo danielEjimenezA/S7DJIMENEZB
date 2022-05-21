@@ -26,6 +26,7 @@ namespace S7DJIMENEZB
             {
                 var DatosRegistro = new Estudiante { Name = txtNombre.Text, User = txtUser.Text, Password = txtPassword.Text };
                 con.InsertAsync(DatosRegistro);
+                limpiarFormulario();
             }
             catch (Exception)
             {
