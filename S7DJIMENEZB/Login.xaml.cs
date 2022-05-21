@@ -50,9 +50,14 @@ namespace S7DJIMENEZB
             }
         }
 
-        private void btnRegistrar_Clicked(object sender, EventArgs e)
+        private async void btnRegistrar_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new Registro());
+        }
 
+        private async void btnConsultaReg_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ConsultaRegistro());
         }
     }
 }

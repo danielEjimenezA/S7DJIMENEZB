@@ -4,7 +4,10 @@
              x:Class="S7DJIMENEZB.Registro">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre"/>
+            <Entry x:Name="txtUser" Placeholder="Ingrese Usuario"/>
+            <Entry x:Name="txtPassword" Placeholder="Ingrese Contrasena"/>
+            <Button x:Name="btnRegistro" Text="Registro" Clicked="btnRegistro_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

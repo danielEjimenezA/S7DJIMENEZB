@@ -12,9 +12,19 @@ namespace S7DJIMENEZB
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Elemento : ContentPage
     {
-        public Elemento()
+        public Elemento(int id)
         {
             InitializeComponent();
+        }
+
+        private void btnActualizar_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEliminar_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

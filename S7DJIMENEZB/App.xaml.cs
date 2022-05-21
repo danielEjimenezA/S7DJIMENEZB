@@ -10,7 +10,7 @@ namespace S7DJIMENEZB
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart()
